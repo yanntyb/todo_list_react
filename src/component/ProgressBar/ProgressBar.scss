@@ -1,0 +1,49 @@
+
+.progressBar-action{
+  margin-top:2%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  .remove{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+    height: 3vh;
+    background-color: #489CC1;
+    color: white;
+    padding: 0 2%;
+
+    &:hover{
+      cursor: pointer;
+    }
+  }
+
+}
+
+.progressBar_container{
+  position: relative;
+  width: 70%;
+  border: 1px solid #489CC1;
+  height: 3vh;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  span{
+    z-index: 2;
+  }
+
+  .progressBar{
+    position: absolute;
+    left: 0;
+    background-color: #ffd953;
+    height: 100%;
+  }
+
+}
